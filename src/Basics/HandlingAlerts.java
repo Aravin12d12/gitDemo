@@ -10,8 +10,11 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class HandlingAlerts {
 
+public class HandlingAlerts {
+public void getdata() {
+	System.out.println("Downloads");
+}
 	public static void main(String[] args) throws InterruptedException, IOException {
 		System.setProperty("Webdriver.chrome.driver",
 				"C:\\Users\\aravind.a05\\Downloads\\chromedriver-win64 (2)\\chromedriver-win64\\chromedriver.exe");

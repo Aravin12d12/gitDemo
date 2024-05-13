@@ -15,6 +15,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
 public class HandleDropdown {
+	
+	public void enter() {
+		System.out.println("koenisegg");
+	}
+	public void enter1() {
+		System.out.println("lambo");
+	}
 
 	public static void main(String[] args) throws InterruptedException, IOException {
 		System.setProperty("Webdriver.chrome.driver",
